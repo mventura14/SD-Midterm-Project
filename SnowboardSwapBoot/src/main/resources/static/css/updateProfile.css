@@ -1,0 +1,28 @@
+@import url("site.css");
+
+
+.header{
+	color: white;
+}
+
+body {
+	background-image: url("https://wallpapers.com/images/hd/blue-abstract-background-8mkwn5cnbrb1pz68.jpg");
+}
+
+.form-cont{
+	max-width: 500px;	
+	margin: 0 auto;
+	
+	h2{text-align: center; margin-bottom: 1em;}	
+}
+
+.button-cont{
+	
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2em;
+}
+
+h2 {
+	color: white;
+}

@@ -1,0 +1,26 @@
+@import url('site.css');
+
+
+.div1{
+	padding-top: px;
+text-shadow: 1px 1px 2px pink;
+	font-style: italic;
+}
+
+body {
+	font-family: verdana, sans-serif;
+	font-style: none;
+	text-align: center;
+	letter-spacing: 0px;
+	line-height: 20px;
+	background-image:
+		url('https://live.staticflickr.com/1234/5105344392_6f306142d7_b.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	opacity: 0.8;
+	color: black;
+	margin: auto;
+	
+	
+}

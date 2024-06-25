@@ -1,0 +1,57 @@
+@import url('site.css');
+
+body{
+	background: rgb(23,109,155);
+	background: linear-gradient(0deg, rgba(23,109,155,1) 16%, rgb(33, 183, 221) 64%);
+	background-image: url("https://i.pinimg.com/originals/42/08/c0/4208c06812e7577e4b4e8a53109a9bbf.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	min-height: 100svh;
+}
+
+main{
+	height: 100%;
+}
+
+img{
+	min-height: 150px;
+	max-height: 150px;
+	
+	position: relative;
+	object-position: center;
+    object-fit: cover;
+	
+}
+
+.imgCont{
+	flex: 1 1 auto;
+	width: 100%;
+	position:relative;
+	
+}
+.limit-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    max-height: 5em; /* 3 times the line height */
+}
+
+.resortsContainer{
+	max-width: 800px;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 1em;
+	justify-content: initial;
+	margin: 2em auto;
+	
+}
+
+.resort-card{
+	
+	flex: 1 1 auto;
+	min-width: 150px;
+	max-width: 250px;
+}

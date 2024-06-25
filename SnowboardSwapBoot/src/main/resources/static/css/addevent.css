@@ -1,0 +1,19 @@
+@import url("site.css");
+
+ body{
+	background-image:
+		url('https://scene7.vailresorts.com/is/image/vailresorts/20240312_BR_Douvalakis_04?resMode=sharp2&w=1152&h=360&wid=1831&fit=constrain,1&dpr=on,1');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+ }
+ div h2 {
+	text-shadow: 2px 2px #000000;
+	color: white;
+ }
+form{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px #000000;
+}

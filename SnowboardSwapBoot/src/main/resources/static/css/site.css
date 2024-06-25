@@ -1,0 +1,30 @@
+.siteWidthWrapper {
+	max-width: 750px;
+}
+
+nav {
+	position: fixed;
+	.dropdown-toggle::after{
+    display: none;
+}
+ul{
+	align-items: center;
+	
+	i{
+	font-size: 25px;
+	}
+}
+
+
+}
+
+
+.btn-i{
+	
+	margin: auto;
+	height: 30px;
+	width: 30px;
+	font-size: 20px;
+	padding: 0;
+	
+}

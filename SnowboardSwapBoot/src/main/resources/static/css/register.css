@@ -1,0 +1,17 @@
+@import url("site.css");
+
+body{
+	height: 100svh;
+}
+
+main{
+	height: 89%;
+	display:grid;
+	place-items: center;
+}
+
+.form-container{
+	margin: 0 auto;
+	max-width: 400px;
+	h2{text-align: center;}
+}

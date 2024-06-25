@@ -1,0 +1,95 @@
+@import url("site.css");
+
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet';
+
+body{
+	height: 100svh;
+	background-color: black;
+	display: flex;
+	flex-flow: column;
+}
+main{flex-grow: 1;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+
+.sidebar{
+	display: flex;
+	flex-flow: column;
+	gap: .8em;
+	padding: 1em;
+	background-color: green;
+	width: max-content;
+	height: 100%;
+	padding-right: 1em;
+	background-color: black;
+	box-shadow: 0 0 10px 0 white;
+	
+	&:has(#sidebar-collapse:checked){
+		
+	
+		p{display:none;}
+	
+	}
+	
+	.sidebar-ico{ 
+		width:30px;
+		height: 30px;
+		border-radius: .5em;
+		
+		display: grid;
+		place-items:center;
+/* 		overflow: hidden;
+ */		font-size: 1.3em;
+		box-shadow: 0 0 5px 1px white;
+		padding: .2em;
+		color: white;
+		
+	}
+	
+	#sidebar-collapse{
+		display:none;
+	}
+	
+	.sidebar-menu-item{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content:flex-start;
+		align-items: center;
+		gap: .5em;
+		
+		p{margin:0; color: white;}
+	}
+	
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	
+	
+}
+
+.img-cont{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		position: relative;
+		
+		img{
+ 			width: 100%;
+			min-height: 100%;
+			position: absolute; 
+ 			object-position: center;
+    		object-fit: cover;
+		}
+	}
+
+section{flex: 1 1;}
+
+.profile-img{
+	width: 200px;
+	height: 200px;
+}

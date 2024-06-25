@@ -1,0 +1,32 @@
+@import url('site.css');
+
+
+a {
+  padding: 8px;
+  color: white;
+}
+ h1{
+	font-size: 40px;
+	color: rgb(3, 0, 86);
+	text-align: center;
+	background-image:
+		url('https://wallpapers.com/images/hd/royal-blue-background-6in3ivmrqb6kat5a.jpg');
+}
+
+body {
+	font-family: verdana, sans-serif;
+	text-align: center;
+	letter-spacing: 0px;
+	line-height: 20px;
+	background-image:
+		url('https://live.staticflickr.com/1234/5105344392_6f306142d7_b.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.transbox{
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+		
+}

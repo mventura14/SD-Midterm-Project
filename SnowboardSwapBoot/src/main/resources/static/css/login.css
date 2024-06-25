@@ -1,0 +1,21 @@
+@import url("site.css");
+
+body{
+	height: 100svh;
+}
+
+
+main{
+	height: 89%;
+	display:grid;
+	place-items: center;
+}
+
+
+
+.form-signin {
+	text-align:center;
+	max-width: 400px;
+	padding: 15px;
+	margin: auto;
+}
